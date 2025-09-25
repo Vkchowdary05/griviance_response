@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "387064087030",
+    "project_id": "complaintmanagement-2c673",
+    "storage_bucket": "complaintmanagement-2c673.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387064087030:android:7e487e1f6ab90159a4c7d7",
+        "android_client_info": {
+          "package_name": "com.complaintmanagement.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiSSJTCFPJnDtEGo7IyLgS7w_Yli9D18w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387064087030:android:56d1bd1f2d8b6e26a4c7d7",
+        "android_client_info": {
+          "package_name": "com.example.complaint_management_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiSSJTCFPJnDtEGo7IyLgS7w_Yli9D18w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387064087030:android:ded6f846312d3043a4c7d7",
+        "android_client_info": {
+          "package_name": "com.example.griviance_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiSSJTCFPJnDtEGo7IyLgS7w_Yli9D18w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387064087030:android:5363a77e1887174da4c7d7",
+        "android_client_info": {
+          "package_name": "com.example.griviance_system1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiSSJTCFPJnDtEGo7IyLgS7w_Yli9D18w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387064087030:android:827cb68071d2a48da4c7d7",
+        "android_client_info": {
+          "package_name": "com.example.griviance_system2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiSSJTCFPJnDtEGo7IyLgS7w_Yli9D18w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
