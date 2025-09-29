@@ -11,11 +11,11 @@ class GrievanceCard extends StatelessWidget {
   final bool showUpvoteButton;
 
   const GrievanceCard({
-    Key? key,
+    super.key,
     required this.grievance,
     required this.onTap,
     this.showUpvoteButton = true,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

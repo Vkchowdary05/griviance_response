@@ -16,7 +16,7 @@ class SupabaseService {
           .select('*')
           .single();
 
-      return response as Map<String, dynamic>;
+      return response;
     } catch (e) {
       throw ServerException('Failed to create user profile: ${e.toString()}');
     }
@@ -30,7 +30,7 @@ class SupabaseService {
           .eq('id', userId)
           .maybeSingle();
 
-      return response as Map<String, dynamic>?;
+      return response;
     } catch (e) {
       throw ServerException('Failed to get user profile: ${e.toString()}');
     }
@@ -66,7 +66,7 @@ class SupabaseService {
           ''')
           .single();
 
-      return response as Map<String, dynamic>;
+      return response;
     } catch (e) {
       throw ServerException('Failed to create grievance: ${e.toString()}');
     }
@@ -122,7 +122,7 @@ class SupabaseService {
           .eq('id', id)
           .maybeSingle();
 
-      return response as Map<String, dynamic>?;
+      return response;
     } catch (e) {
       throw ServerException('Failed to get grievance: ${e.toString()}');
     }
@@ -146,7 +146,7 @@ class SupabaseService {
   // ---------------- Department Operations ----------------
   static Future<List<Map<String, dynamic>>> getDepartments() async {
     try {
-      final response = await (_client
+      final response = (_client
               .from('departments')
               .select('*')
               .order('name') as List);

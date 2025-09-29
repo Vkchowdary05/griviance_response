@@ -7,11 +7,11 @@ class DepartmentDropdown extends StatelessWidget {
   final String? Function(String?)? validator;
 
   const DepartmentDropdown({
-    Key? key,
+    super.key,
     required this.selectedDepartment,
     required this.onChanged,
     this.validator,
-  }) : super(key: key);
+  });
 
   static const List<String> departments = [
     'Public Works',
@@ -42,7 +42,7 @@ class DepartmentDropdown extends StatelessWidget {
         ),
         const SizedBox(height: 8),
         DropdownButtonFormField<String>(
-          value: selectedDepartment,
+          initialValue: selectedDepartment,
           onChanged: onChanged,
           validator: validator,
           decoration: InputDecoration(

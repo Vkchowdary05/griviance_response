@@ -102,7 +102,7 @@ If no similar grievances found, return "none".
       final indices = result
           .split(',')
           .map((s) => int.tryParse(s.trim()))
-          .where((i) => i != null && i! > 0 && i! <= existingGrievances.length)
+          .where((i) => i != null && i > 0 && i <= existingGrievances.length)
           .map((i) => existingGrievances[i! - 1])
           .toList();
       

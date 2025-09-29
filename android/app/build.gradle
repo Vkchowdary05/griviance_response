@@ -7,7 +7,8 @@ plugins {
 
 android {
     namespace "com.example.griviance_system2"
-    compileSdk 34
+
+    compileSdk 36
 
     defaultConfig {
         applicationId "com.example.griviance_system2"
@@ -15,8 +16,8 @@ android {
         targetSdk 34
         versionCode 1
         versionName "1.0"
-        multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -40,9 +41,9 @@ android {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
-    implementation "androidx.core:core-ktx:1.13.1"
+    implementation "androidx.core:core-ktx:1.16.0"
     implementation "androidx.appcompat:appcompat:1.6.1"
     implementation "com.google.android.material:material:1.12.0"
-    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:2.0.4"
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.4'
+    // Removed kotlin-stdlib; provided by Kotlin plugin
 }

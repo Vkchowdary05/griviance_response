@@ -11,7 +11,7 @@ import '../../../../core/utils/validators.dart';
 import '../../../../core/utils/app_utils.dart';
 
 class RegisterPage extends StatefulWidget {
-  const RegisterPage({Key? key}) : super(key: key);
+  const RegisterPage({super.key});
 
   @override
   State<RegisterPage> createState() => _RegisterPageState();

@@ -9,7 +9,6 @@ import 'core/network/network_info.dart';
 import 'services/firebase_service.dart';
 import 'services/supabase_service.dart';
 import 'services/gemini_service.dart';
-import 'services/notification_service.dart';
 import 'services/location_service.dart';
 
 // Auth Feature

@@ -9,7 +9,7 @@ import '../../domain/entities/grievance_entity.dart';  // ✅ Needed for `Grieva
 
 
 class GrievanceListPage extends StatefulWidget {
-  const GrievanceListPage({Key? key}) : super(key: key);
+  const GrievanceListPage({super.key});
 
   @override
   State<GrievanceListPage> createState() => _GrievanceListPageState();

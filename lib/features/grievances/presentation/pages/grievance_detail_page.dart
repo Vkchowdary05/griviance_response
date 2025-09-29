@@ -12,9 +12,9 @@ class GrievanceDetailPage extends StatefulWidget {
   final String grievanceId;
 
   const GrievanceDetailPage({
-    Key? key,
+    super.key,
     required this.grievanceId,
-  }) : super(key: key);
+  });
 
   @override
   State<GrievanceDetailPage> createState() => _GrievanceDetailPageState();

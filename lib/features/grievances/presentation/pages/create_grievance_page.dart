@@ -17,7 +17,7 @@ import '../../../../services/location_service.dart';
 import 'package:geolocator/geolocator.dart';
 
 class CreateGrievancePage extends StatefulWidget {
-  const CreateGrievancePage({Key? key}) : super(key: key);
+  const CreateGrievancePage({super.key});
 
   @override
   State<CreateGrievancePage> createState() => _CreateGrievancePageState();

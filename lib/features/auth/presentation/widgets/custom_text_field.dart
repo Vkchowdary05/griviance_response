@@ -16,7 +16,7 @@ class CustomTextField extends StatefulWidget {
   final int? maxLength;
 
   const CustomTextField({
-    Key? key,
+    super.key,
     required this.label,
     this.hint,
     this.obscureText = false,
@@ -29,7 +29,7 @@ class CustomTextField extends StatefulWidget {
     this.onTap,
     this.maxLines = 1,
     this.maxLength,
-  }) : super(key: key);
+  });
 
   @override
   State<CustomTextField> createState() => _CustomTextFieldState();

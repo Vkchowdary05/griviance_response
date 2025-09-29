@@ -8,10 +8,10 @@ class StatusChip extends StatelessWidget {
   final bool compact;
 
   const StatusChip({
-    Key? key,
+    super.key,
     required this.status,
     this.compact = false,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

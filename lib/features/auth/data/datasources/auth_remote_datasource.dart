@@ -3,7 +3,6 @@ import '../../../../services/supabase_service.dart';
 import '../models/user_model.dart';
 import '../../domain/entities/user_entity.dart';
 import '../../../../core/errors/exceptions.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 
 abstract class AuthRemoteDataSource {
   Future<UserModel> login(String email, String password);

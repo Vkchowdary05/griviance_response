@@ -1,6 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.yourapp">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <queries>
         <intent>
@@ -36,7 +35,7 @@
             android:name="flutterEmbedding"
             android:value="2" />
 
-        <!-- Override FirebaseMessagingService exported to resolve merge conflict -->
+        <!-- Keep FCM service with exported=false to avoid lint/security issues -->
         <service
             android:name="com.google.firebase.messaging.FirebaseMessagingService"
             android:exported="false"

@@ -16,7 +16,7 @@ import 'features/grievances/presentation/pages/grievance_detail_page.dart';
 import 'injection_container.dart' as di;
 
 class GrievanceApp extends StatelessWidget {
-  const GrievanceApp({Key? key}) : super(key: key);
+  const GrievanceApp({super.key});
 
   @override
   Widget build(BuildContext context) {
